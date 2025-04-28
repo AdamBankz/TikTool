@@ -82,7 +82,7 @@ class App(customtkinter.CTk):
 
         self.navigation_frame.grid_rowconfigure(8, weight=1) 
 
-        self.navigation_frame_label = customtkinter.CTkLabel(self.navigation_frame, text="  TikTool Bot", 
+        self.navigation_frame_label = customtkinter.CTkLabel(self.navigation_frame, text="  sharkpc.xd", 
                                                                image=self.logo_image,
                                                                compound="left", font=customtkinter.CTkFont(size=20, weight="bold"))
         self.navigation_frame_label.grid(row=0, column=0, padx=20, pady=20)
@@ -145,30 +145,30 @@ class App(customtkinter.CTk):
         self.stats_frame.grid(row=1, column=0, padx=20, pady=5, sticky="nsew")
         self.stats_frame.grid_columnconfigure(0, weight=1) # Ensure labels align left
 
-        self.stats_label = customtkinter.CTkLabel(self.stats_frame, text="Bot Statistics", font=customtkinter.CTkFont(size=20, weight="bold"))
+        self.stats_label = customtkinter.CTkLabel(self.stats_frame, text="Nhin Thg Cha M", font=customtkinter.CTkFont(size=20, weight="bold"))
         self.stats_label.grid(row=0, column=0, padx=20, pady=5, sticky="w") # Align left
 
-        self.views_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Total Views: {self.total_views}", font=customtkinter.CTkFont(size=16))
+        self.views_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Tổng View: {self.total_views}", font=customtkinter.CTkFont(size=16))
         self.views_stat.grid(row=1, column=0, padx=20, pady=2, sticky="w") # Align left
 
-        self.likes_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Total Likes: {self.total_likes}", font=customtkinter.CTkFont(size=16))
+        self.likes_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Tổng Like: {self.total_likes}", font=customtkinter.CTkFont(size=16))
         self.likes_stat.grid(row=2, column=0, padx=20, pady=2, sticky="w") # Align left
 
-        self.followers_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Total Followers: {self.total_followers}", font=customtkinter.CTkFont(size=16))
+        self.followers_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Tổng Followers: {self.total_followers}", font=customtkinter.CTkFont(size=16))
         self.followers_stat.grid(row=3, column=0, padx=20, pady=2, sticky="w") # Align left
 
-        self.shares_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Total Shares: {self.total_shares}", font=customtkinter.CTkFont(size=16))
+        self.shares_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Tổng Shares: {self.total_shares}", font=customtkinter.CTkFont(size=16))
         self.shares_stat.grid(row=4, column=0, padx=20, pady=2, sticky="w")
 
-        self.favourites_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Total Favourites: {self.total_favourites}", font=customtkinter.CTkFont(size=16))
+        self.favourites_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Tổng Favourites: {self.total_favourites}", font=customtkinter.CTkFont(size=16))
         self.favourites_stat.grid(row=5, column=0, padx=20, pady=2, sticky="w")
 
-        self.comment_likes_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Total Comment Likes: {self.total_comment_likes}", font=customtkinter.CTkFont(size=16))
+        self.comment_likes_stat = customtkinter.CTkLabel(self.stats_frame, text=f"Tổng Comment Likes: {self.total_comment_likes}", font=customtkinter.CTkFont(size=16))
         self.comment_likes_stat.grid(row=6, column=0, padx=20, pady=2, sticky="w")
 
 
         # Configuration Section Label
-        self.home_frame_config_label = customtkinter.CTkLabel(self.home_frame, text="Configuration", font=customtkinter.CTkFont(size=20, weight="bold")) # Renamed variable for clarity
+        self.home_frame_config_label = customtkinter.CTkLabel(self.home_frame, text="Cấu Hình", font=customtkinter.CTkFont(size=20, weight="bold")) # Renamed variable for clarity
         self.home_frame_config_label.grid(row=2, column=0, padx=20, pady=10, sticky="w") # Align left
 
         # Entry Fields
